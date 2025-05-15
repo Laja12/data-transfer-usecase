@@ -11,6 +11,6 @@ provider "aws" {
 }
 
 module "json_to_xml_lambda" {
-  source        = "./lambda/lambda_transform"
+  source        = "./modules/lambda_transform"
   function_name = "json-to-xml-transformer"
 }
