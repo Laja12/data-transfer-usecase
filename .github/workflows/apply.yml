@@ -1,4 +1,4 @@
-name: use-case-13
+name: data-transfer
 
 on:
   workflow_dispatch:
